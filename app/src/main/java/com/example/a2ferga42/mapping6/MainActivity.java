@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity
 
         super.onCreate(savedInstanceState);
 
-        // This line sets the user agent, a requirement to download OSM maps
+
         Configuration.getInstance().load(this, PreferenceManager.getDefaultSharedPreferences(this));
 
         setContentView(R.layout.activity_main);
