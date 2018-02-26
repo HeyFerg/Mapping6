@@ -55,6 +55,12 @@ public class MainActivity extends AppCompatActivity
             startActivityForResult(intent, 0);
             return true;
         }
+        else if
+        {
+            Intent intent = new Intent(this, SetLocationActivity.class)
+            startActivityForResult(intent, 1);
+            return true;
+        }
         return false;
     }
 
