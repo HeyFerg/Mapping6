@@ -4,4 +4,7 @@
     <string name="regularview">Regular View</string>
     <string name="hikebikemapview">Hike Bike Map View</string>
     <string name="selectmap">Select Map</string>
+    <string name="set_lat">Latitude</string>
+    <string name="set_long">Longitude</string>
+    <string name="set_location">Set Location</string>
 </resources>

@@ -55,9 +55,9 @@ public class MainActivity extends AppCompatActivity
             startActivityForResult(intent, 0);
             return true;
         }
-        else if
+        else if(item.getItemId() == R.id.setlocation)
         {
-            Intent intent = new Intent(this, SetLocationActivity.class)
+            Intent intent = new Intent(this, SetLocationActivity.class);
             startActivityForResult(intent, 1);
             return true;
         }
@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity
                     mv.setTileSource(TileSourceFactory.MAPNIK);
                 }
             }
+            
         }
     }
 
