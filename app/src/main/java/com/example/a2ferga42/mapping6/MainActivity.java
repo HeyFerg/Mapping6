@@ -10,6 +10,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import junit.framework.Test;
+
 import org.osmdroid.config.Configuration;
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
 import org.osmdroid.util.GeoPoint;
@@ -73,6 +75,7 @@ public class MainActivity extends AppCompatActivity
 
             if (resultCode==RESULT_OK)
             {
+                TEST == 1;
                 Bundle extras=intent.getExtras();
                 boolean hikebikemap = extras.getBoolean("com.example.hikebikemap");
                 if(hikebikemap==true)

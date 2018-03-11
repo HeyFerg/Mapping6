@@ -43,4 +43,5 @@ public class SetLocationActivity extends AppCompatActivity implements OnClickLis
         }
 
 
+
 }
