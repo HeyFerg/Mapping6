@@ -10,8 +10,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import junit.framework.Test;
-
 import org.osmdroid.config.Configuration;
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
 import org.osmdroid.util.GeoPoint;
@@ -63,7 +61,14 @@ public class MainActivity extends AppCompatActivity
             startActivityForResult(intent, 1);
             return true;
         }
+        else if(item.getItemId() == R.id.preferences)
+        {
+            Intent intent = new Intent(this, MyPreferenceActivity.class)
+            startActivityForResult(intent, 1);
+            return true;
+        }
         return false;
+
     }
 
 
