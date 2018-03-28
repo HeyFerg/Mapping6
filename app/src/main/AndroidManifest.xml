@@ -23,6 +23,9 @@
             </intent-filter>
 
         </activity>
+        <activity android:name=".MyPreferenceActivity"></activity>
+        <activity android:name="MapChooseActivity"></activity>
+        <activity android:name="SetLocationActivity"></activity>
     </application>
 
 </manifest>

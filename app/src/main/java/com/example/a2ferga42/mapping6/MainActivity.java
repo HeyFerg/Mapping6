@@ -63,8 +63,8 @@ public class MainActivity extends AppCompatActivity
         }
         else if(item.getItemId() == R.id.preferences)
         {
-            Intent intent = new Intent(this, MyPreferenceActivity.class)
-            startActivityForResult(intent, 1);
+            Intent intent = new Intent(this, MyPreferenceActivity.class);
+            startActivityForResult(intent, 2);
             return true;
         }
         return false;
